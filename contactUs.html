@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="css\style.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Della+Respira" rel="stylesheet">
+	</head>
+    
+	<body>
+		
+		<header id="page-header">
+			<div id="logo">
+				<a href="index.html"><img src="images\logo.gif" alt="Logo" height=100px></a>
+				<h1><a href="index.html">Harry's Lab</a></h1>
+			</div>
+
+			<div>
+				<nav id="menu-bar">
+					<ul>
+						<li>
+							<a href="separatingMixtures.html">Separating Mixtures</a>
+						</li>
+						<li>
+							<a href="elementsCompoundsMixtures.html">Elements, Compounds and Mixtures</a>
+						</li>
+						<li>
+							<a href="insideAtom.html">Inside the Atom</a>
+						</li>
+						<li>
+							<a href="chemicalChange.html">Chemical Change</a>
+						</li>
+						<li>
+							<a href="chemicalReactions.html">Chemical Reactions</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+	
+		<section class="top">
+			<h1>Leave Us a Message</h1>
+
+			<article class="info">
+				<aside>
+					<p>
+						Hope you enjoyed your time on Harry's Lab!
+						If you have queries please don't hesitate to send us an email on
+						<b><em><a href="mailto: juhua.huang@uqconnect.edu.au">juhua.huang@uqconnect.edu.au</a></em></b>.
+						Alternatively please fill out the form below.
+					</p>
+
+					<p>
+						Don't worry, we care very much about your privacy. Hence, any information you provide us will remain confidential and we'll only use it as a tool to improve the content of our website.
+					</p>
+				</aside>
+
+				<aside class="images">
+					<img src="images\prisoner.jpg" alt="Prisoner" height=300px>
+				</aside>
+			</article>
+			
+			<form>
+				<fieldset>
+					<legend>Your Details</legend>
+
+					<div class="form-item">
+						<label for="form-full-name">Name</label>
+						<div class="form-element">
+							<input type="text" name="full_name" id="form-full-name">
+							<p id="name"> </p>
+						</div>
+					</div>
+					
+					<div class="form-item">
+						<label for="form-state">State</label>
+						<div class="form-element">
+							<select name="state" id="form-state">
+								<option value="">---</option>
+								<option>QLD</option>
+								<option>NSW</option>
+								<option>VIC</option>
+								<option>TAS</option>
+								<option>WA</option>
+								<option>SA</option>
+								<option>NT</option>
+								<option>ACT</option>
+							</select>
+							<p id="state"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label for="form-city">City</label>
+						<div class="form-element">
+							<input type="text" name="city" id="form-city">
+							<p id="city"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label for="form-phone">Phone</label>
+						<div class="form-element">
+							<input type="text" name="phone" id="form-phone">
+							<p id="phone"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label for="form-email">Email</label>
+						<div class="form-element">
+							<input type="text" name="email" id="form-email">
+							<p id="email"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label>Age</label>
+						<div class="form-element">
+							<label for="form-age-11">
+								<input type="radio" id="form-age-11" name="age" value="Under 12"> Under 12
+							</label>
+							<label for="form-age-12">
+								<input type="radio" id="form-age-12" name="age" value="12"> 12
+							</label>
+							<label for="form-age-13">
+								<input type="radio" id="form-age-13" name="age" value="13"> 13
+							</label>
+							<label for="form-age-14">
+								<input type="radio" id="form-age-14" name="age" value="14"> 14
+							</label>
+							<label for="form-age-15">
+								<input type="radio" id="form-age-15" name="age" value="Over 14"> Over 14
+							</label>
+							<p id="age"> </p>
+						</div>
+					</div>
+				</fieldset>
+	
+				<fieldset>
+					<legend>Comments on Harry's Lab</legend>
+
+					<div class="form-item">
+						<label>What were your favourite sections?</label>
+						<div class="form-element">
+							<label for="form-favourite-mixtures">
+								<input type="checkbox" id="form-favourite-mixtures" name="favourite" value="Separating Mixtures"> Separating Mixtures
+							</label>
+							<label for="form-favourite-ecm">
+								<input type="checkbox" id="form-favourite-ecm" name="favourite" value="Elements, Compounds and Mixtures"> Elements, Compounds and Mixtures
+							</label>
+							<label for="form-favourite-atom">
+								<input type="checkbox" id="form-favourite-atom" name="favourite" value="Inside the Atom"> Inside the Atom
+							</label>
+							<label for="form-favourite-change">
+								<input type="checkbox" id="form-favourite-change" name="favourite" value="Chemical Change"> Chemical Change
+							</label>
+							<label for="form-favourite-reactions">
+								<input type="checkbox" id="form-favourite-reactions" name="favourite" value="Chemical Reactions"> Chemical Reactions
+							</label>
+							<label for="form-favourite-all">
+								<input type="checkbox" id="form-favourite-all" name="favourite" value="All of the above"> All of the above
+							</label>
+							<label for="form-favourite-none">
+								<input type="checkbox" id="form-favourite-none" name="favourite" value="None of the above"> None of the above
+							</label>
+							<p id="fav"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<label for="form-comments">Other Comments:</label>
+						<div class="form-element">
+							<textarea id="form-comments" name="comments" rows="10" cols="25" placeholder="Tell us more about any feedback you'd like us to know."></textarea>
+							<p id="other"> </p>
+						</div>
+					</div>
+
+					<div class="form-item">
+						<button type="submit">Submit</button>
+						<p id="sub"> </p>
+					<div class="form-item"></div>
+				</fieldset>
+			</form>
+		</section>
+
+		<footer id="page-footer">
+			<nav id="footer-menu">
+				<ul>
+					<li>
+						<a href="#">Back to Top</a>
+					</li>
+					<li>
+						<a href="index.html">Home</a>
+					</li>
+					<li class="current-link">
+						<a href="#">Contact Us</a>
+					</li>
+					<li>
+						<a href="acknowledgements.html">Acknowledgements</a>
+					</li>
+				</ul>
+			</nav>
+		</footer>
+
+		<script src="js/jquery-3.3.1.min.js"></script>
+		<script src="js/script.js"></script>
+
+	</body>
+
+</html>
