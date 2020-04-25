@@ -1,1 +1,1 @@
-Designed and implemented an interactive website that combines non-fiction, educational content (Chemistry) with the visuals and theme from a fiction text (Harry Potter) for a target audience aged between 4 and 25 years old.
+https://jhhuang7.github.io/HarrysLab
