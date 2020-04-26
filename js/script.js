@@ -124,6 +124,8 @@ $(document).ready(function() {
 
         if (complete) {
             alert("Thanks for giving us your feedback, " + name + ".");
+	    $("#sub").text("");
+	    window.location.assign("contactUs.html");
         } else {
             $("#sub").text(incomplete);
         }
